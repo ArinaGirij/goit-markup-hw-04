@@ -181,46 +181,15 @@ p {
 }
 
 .icon-clock::before {
-  margin-bottom: 30px;
-
-  display: block;
-  content: "";
-  width: 270px;
-  height: 140px;
   background-image: url(../images/clock\ .svg);
-  background-size: content;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--body-bgc-index);
 }
 
 .icon-diagrama::before{
-  margin-bottom: 30px;
-
-  display: block;
-  content: "";
-  width: 270px;
-  height: 140px;
   background-image: url(../images/diagram\ .svg);
-  background-size: content;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--body-bgc-index);
-
 }
 .icon-austronaut::before{
-  margin-bottom: 30px;
-
-  display: block;
-  content: "";
-  width: 270px;
-  height: 140px;
   background-image: url(../images/austronavt.svg);
-  background-size: content;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--body-bgc-index);
-
+  
 }
 .item {
   margin-right: 30px;
