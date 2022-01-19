@@ -173,17 +173,58 @@ p {
   content: "";
   width: 270px;
   height: 140px;
-  background-image: url(../images/Vector.svg);
+  background-image: url(../images/sputnik.svg);
   background-size: content;
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--body-bgc-index);
 }
 
+.icon-clock::before {
+  margin-bottom: 30px;
+
+  display: block;
+  content: "";
+  width: 270px;
+  height: 140px;
+  background-image: url(../images/clock\ .svg);
+  background-size: content;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--body-bgc-index);
+}
+
+.icon-diagrama::before{
+  margin-bottom: 30px;
+
+  display: block;
+  content: "";
+  width: 270px;
+  height: 140px;
+  background-image: url(../images/diagram\ .svg);
+  background-size: content;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--body-bgc-index);
+
+}
+.icon-austronaut::before{
+  margin-bottom: 30px;
+
+  display: block;
+  content: "";
+  width: 270px;
+  height: 140px;
+  background-image: url(../images/austronavt.svg);
+  background-size: content;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--body-bgc-index);
+
+}
 .item {
   margin-right: 30px;
 }
-
 .item:last-child {
   margin-right: 0px;
 }
@@ -198,14 +239,12 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
 .feature-text {
   color: var(--primary-text-color);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
 .work {
   padding-top: 0px;
 }
@@ -217,6 +256,7 @@ p {
 .photo:last-child {
   margin-right: 0px;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -228,7 +268,6 @@ img {
 .work-list {
   display: flex;
 }
-
 .work-title .item {
   margin-right: 30px;
 }
@@ -242,12 +281,12 @@ img {
 
   color: var(--title-text-color);
   font-family: "Roboto", sans-serif;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
-
 .team {
   background-color: var(--body-bgc-index);
 }
@@ -258,7 +297,6 @@ img {
 
 .team-title {
   margin-bottom: 50px;
-
   color: var(--title-text-color);
   font-family: Roboto;
   font-weight: 700;
@@ -267,19 +305,17 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 }
-
 .div {
   padding: 30px 0;
 }
+
 .team-name {
   margin-bottom: 10px;
-
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 18;
-  /* identical to box height */
-
+  color: var(--title-text-color
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -292,7 +328,6 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
 }
-
 .team-item {
   margin-right: 30px;
 }
@@ -301,20 +336,18 @@ img {
   margin-right: 0%;
 }
 
-/*Button*/
-
+.team-item
 .all-button {
   display: flex;
   justify-content: center;
 }
-
 .button-index {
   padding: 10px 32px;
   min-width: 200px;
-
   background-color: var(--bgc);
   color: var(--accent-color);
   cursor: pointer;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
@@ -325,15 +358,14 @@ img {
 .button-index:focus {
   color: var(--title-text-color);
 }
-
 .button {
   border-radius: 4px;
   padding: 6px 22px;
   min-width: 73px;
-
   color: var(--title-text-color);
   background: var(--body-bgc-index);
   cursor: pointer;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -347,18 +379,18 @@ button:focus {
 .button-item {
   margin-right: 8px;
 }
-
 .button-item:last-child {
   margin-right: 0px;
 }
+
 .button-primary {
   border-radius: 4px;
   padding: 6px 22px;
   min-width: 73px;
-
   background-color: var(--bgc);
   color: var(--accent-color);
   cursor: pointer;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -369,20 +401,16 @@ button:focus {
 .button-primary:focus {
   color: var(--title-text-color);
 }
-
-/* Card set */
-
+.button-primar
 .card-set {
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--card-set-gap));
   margin-bottom: calc(-1 * var(--card-set-gap));
 }
-
 .card-item {
   background: #ffffff;
   margin-bottom: 30px;
-
   margin-left: var(--card-set-gap);
   margin-bottom: var(--card-set-gap);
   flex-basis: calc(100% / 3 - var(--card-set-gap));
@@ -399,17 +427,14 @@ button:focus {
   width: 370px;
   border-radius: 4px;
 }
-
-/* Footer WebStudio */
-
+  width: 370px;
+  bord
 .footer {
   background-color: var(--secondary-bgc);
   padding: 60px 0;
 }
-
 .footer-title {
   margin-bottom: 20px;
-
   color: var(--bgc);
   text-decoration: none;
   font-family: Raleway;
@@ -418,7 +443,6 @@ button:focus {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-
 .footer-nav {
   color: var(--accent-color);
   text-decoration: none;
@@ -428,19 +452,17 @@ button:focus {
   vertical-align: Top;
   letter-spacing: 3%;
 }
-
 .footer-nav:hover,
 .footer-nav:focus {
   color: #2196f3;
 }
-
 .footer-title {
   margin-bottom: 20px;
 }
+
 .footer-logo {
   color: var(--body-bgc-index);
 }
-
 .adress-item {
   margin-bottom: 9px;
 }
@@ -449,20 +471,19 @@ button:focus {
   margin-bottom: 0px;
 }
 
-/* Portfolio 
-  primary-text-color: #212121;
-  secondary-text-color: #757575;
-  accent-color: #2196f3; */
+.adress-item :last-child {
+  margin-bottom: 0px;
+}
 
+/* Portfolio 
+  primary-te
 .portfolio {
   background-color: var(--body-bgc-index);
 }
-
 .all-button {
   margin-bottom: 50px;
   display: flex;
 }
-
 .photo {
   color: var(--primary-text-color);
   text-decoration: none;
@@ -471,33 +492,30 @@ button:focus {
   line-height: 1.87;
   letter-spacing: 0.02em;
 }
-
 .text-img {
   padding-top: 20px;
   padding-left: 24px;
-
   color: var(--title-text-color);
   font-size: 18px;
   line-height: 2;
 }
-
 .paragraph {
   font-weight: 400px;
   font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-
+  line-height: 30px; aragraph {
+  font-weight: 400px;
+  fon
   letter-spacing: 0.03em;
 }
 .adress {
   margin-bottom: 9px;
-
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
+
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
+  text-decorati
   letter-spacing: 0.03em;
 }
 .adress:hover,
