@@ -125,7 +125,7 @@ header {
   fill: var(--bgc);
 }
 
-.icon-smartphone {
+.icon-phone {
   margin-right: 10px;
 
   width: 10px;
@@ -190,7 +190,19 @@ p {
 .item:last-child {
   margin-right: 0px;
 }
-
+.icon-box {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  text-align: center;
+  padding: 25px 0;
+  margin-bottom: 30px;
+}
+.icon-in {
+  width: 70px;
+  height: 70px;
+}
 .feature-title {
   margin-bottom: 10px;
 
