@@ -182,30 +182,6 @@ p {
   margin-right: 30px;
 }
 
-.item::before {
-  margin-bottom: 30px;
-
-  display: block;
-  content: "";
-  width: 270px;
-  height: 140px;
-  background-image: url(../images/sputnik.svg);
-  background-size: content;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--body-bgc-index);
-}
-
-.icon-clock::before {
-  background-image: url(../images/clock\ .svg);
-}
-
-.icon-diagrama::before {
-  background-image: url(../images/diagram\ .svg);
-}
-.icon-austronaut::before {
-  background-image: url(../images/austronavt.svg);
-}
 .item {
   margin-right: 30px;
 }
