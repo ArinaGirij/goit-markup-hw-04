@@ -309,17 +309,24 @@ img {
 .team-item:last-child {
   margin-right: 0%;
 }
-.list-social-media:not(:last-child) {
-  margin-right: 10px;
-  width: 44px;
-  height: 44px;
+.social-links {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.social-media-link {
+.list-social-media {
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+}
+
+.list-social-media:last-child {
+  margin-right: 0px;
+}
+
+.social-media-link:first-child {
   border-radius: 50%;
-  background-color: #2196f3;
+  fill: var(--bgc);
 }
 
 .icons-social-media {
