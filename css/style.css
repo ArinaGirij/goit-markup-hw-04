@@ -481,6 +481,36 @@ button:focus {
   margin-bottom: 0px;
 }
 
+.connect {
+  margin-bottom: 72px;
+  margin-left: 516px;
+
+  padding-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: white;
+}
+
+.footer-social-links {
+  display: flex;
+}
+.footer-list-social {
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+}
+
+.footer-social-link {
+  border-radius: 50%;
+  fill: var(--bgc);
+}
+.footer-icons-social {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
 /* Portfolio 
   primary-text-color: #212121;
   secondary-text-color: #757575;
