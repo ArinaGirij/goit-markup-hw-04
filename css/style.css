@@ -122,6 +122,9 @@ header {
 
   width: 16px;
   height: 12px;
+  fill: currentColor;
+}
+.icon-envelope:hover {
   fill: var(--bgc);
 }
 
@@ -130,9 +133,12 @@ header {
 
   width: 10px;
   height: 16px;
-  fill: var(--primary-text-color);
+  fill: currentColor;
 }
 
+.icon-phone:hover {
+  fill: var(--bgc);
+}
 h1,
 h2,
 h3,
@@ -148,6 +154,7 @@ p {
   background-image: url(../images/background.svg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
