@@ -454,6 +454,10 @@ button:focus {
   background-color: var(--secondary-bgc);
   padding: 60px 0;
 }
+.container-footer {
+  display: flex;
+  align-items: baseline;
+}
 
 .footer-title {
   margin-bottom: 20px;
