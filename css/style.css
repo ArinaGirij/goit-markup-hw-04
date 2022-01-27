@@ -354,7 +354,49 @@ img {
   height: 20px;
   fill: #afb1b8;
 }
+/*ПОСТОЯННЫЕ КЛИЕНТЫ*/
 
+.clients-topic {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.clients {
+  display: flex;
+  list-style: none;
+  margin-bottom: 94px;
+  align-items: center;
+}
+
+.list-clients:not(:last-child) {
+  margin-right: 30px;
+}
+
+.icon-links {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-clients {
+  width: 106px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  fill: #afb1b8;
+}
+
+.icon-links:hover {
+  fill: var(--card-set-gap);
+}
 .all-button {
   display: flex;
   justify-content: center;
@@ -496,6 +538,10 @@ button:focus {
   color: var(--body-bgc-index);
 }
 
+.footer-adress {
+  margin-top: 20px;
+  margin-right: 70px;
+}
 .adress-item {
   margin-bottom: 9px;
 }
@@ -510,6 +556,7 @@ button:focus {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
+  letter-spacing: 0.03em;
   color: white;
 }
 
@@ -521,6 +568,10 @@ button:focus {
   margin-right: 10px;
   width: 44px;
   height: 44px;
+}
+
+.footer-list-social:last-child {
+  margin-right: 0px;
 }
 
 .footer-social-link {
