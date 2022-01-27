@@ -345,6 +345,10 @@ img {
   justify-content: center;
 }
 
+.social-media-link:hover {
+  background-color: var(--bgc);
+}
+
 .icons-social-media {
   width: 20px;
   height: 20px;
@@ -429,7 +433,6 @@ button:focus {
 
 .card-item {
   background: #ffffff;
-  margin-bottom: 30px;
 
   margin-left: var(--card-set-gap);
   margin-bottom: var(--card-set-gap);
@@ -502,9 +505,6 @@ button:focus {
 }
 
 .connect {
-  margin-bottom: 72px;
-  margin-left: 516px;
-
   padding-bottom: 20px;
 
   font-weight: 700;
@@ -517,6 +517,7 @@ button:focus {
   display: flex;
 }
 .footer-list-social {
+  margin-top: 20px;
   margin-right: 10px;
   width: 44px;
   height: 44px;
@@ -525,6 +526,10 @@ button:focus {
 .footer-social-link {
   border-radius: 50%;
   fill: var(--bgc);
+}
+
+.footer-social-link:hover {
+  background-color: var(--bgc);
 }
 .footer-icons-social {
   width: 20px;
