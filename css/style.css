@@ -522,6 +522,7 @@ button:focus {
 
   color: var(--accent-color);
   text-decoration: none;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -575,6 +576,8 @@ button:focus {
 }
 
 .footer-social-link {
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   fill: var(--bgc);
 }
