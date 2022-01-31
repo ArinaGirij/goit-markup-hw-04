@@ -104,6 +104,9 @@ header {
 }
 
 .auth-nav-link {
+  display: flex;
+  align-items: center;
+  padding: 32px 0;
   color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
@@ -292,7 +295,7 @@ img {
   letter-spacing: 0.03em;
 }
 .div {
-  padding: 30px 0;
+  padding: 30px 32px;
 }
 
 .team-name {
@@ -316,6 +319,7 @@ img {
 }
 .team-item {
   margin-right: 30px;
+  background-color: white;
 }
 
 .team-item:last-child {
@@ -414,6 +418,7 @@ img {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  border: 0;
   border-radius: 4px;
 }
 .button-index:hover,
@@ -434,11 +439,15 @@ img {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  border: 0px;
 }
+
 .button:hover,
-button:focus {
-  color: var(--bgc);
+.button:focus {
+  background-color: var(--bgc);
+  color: #fff;
 }
+
 .button-item {
   margin-right: 8px;
 }
@@ -459,6 +468,7 @@ button:focus {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  border: 0px;
 }
 .button-primary:hover,
 .button-primary:focus {
@@ -487,6 +497,7 @@ button:focus {
   padding-right: 24px;
   padding-left: 24px;
   border: 1px solid #eeeeee;
+  border-top: 0px;
 }
 .card {
   box-sizing: border-box;
@@ -553,7 +564,7 @@ button:focus {
 }
 
 .connect {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 
   font-weight: 700;
   font-size: 14px;
@@ -566,10 +577,11 @@ button:focus {
   display: flex;
 }
 .footer-list-social {
-  margin-top: 20px;
+  align-items: center;
   margin-right: 10px;
   width: 44px;
   height: 44px;
+  fill: currentColor;
 }
 
 .footer-list-social:last-child {
@@ -615,9 +627,6 @@ button:focus {
 }
 
 .text-img {
-  padding-top: 20px;
-  padding-left: 24px;
-
   color: var(--title-text-color);
   font-size: 18px;
   line-height: 2;
