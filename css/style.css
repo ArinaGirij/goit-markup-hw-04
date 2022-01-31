@@ -350,6 +350,7 @@ img {
 }
 
 .social-media-link:hover {
+  fill: white;
   background-color: var(--bgc);
 }
 
