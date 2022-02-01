@@ -360,6 +360,9 @@ img {
   fill: #afb1b8;
 }
 
+.icons-social-media:hover {
+  fill: white;
+}
 /*ПОСТОЯННЫЕ КЛИЕНТЫ*/
 
 .clients-topic {
@@ -390,6 +393,7 @@ img {
   border-radius: 4px;
   align-items: center;
   justify-content: center;
+  fill: #afb1b8;
 }
 
 .icons-clients {
@@ -397,11 +401,10 @@ img {
   height: 60px;
   align-items: center;
   justify-content: center;
-  fill: #afb1b8;
 }
 
 .icon-links:hover {
-  fill: var(--card-set-gap);
+  fill: var(--bgc);
 }
 .all-button {
   display: flex;
