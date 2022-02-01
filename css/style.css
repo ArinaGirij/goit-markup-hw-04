@@ -495,6 +495,10 @@ img {
   margin-bottom: var(--card-set-gap);
   flex-basis: calc(100% / 3 - var(--card-set-gap));
 }
+.card-item:hover {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
 .cards {
   padding-top: 20px;
   padding-bottom: 20px;
