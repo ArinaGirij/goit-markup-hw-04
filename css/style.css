@@ -40,6 +40,8 @@ ul {
 
 .logo {
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 
   color: var(--bgc);
   text-decoration: none;
@@ -542,8 +544,6 @@ img {
 }
 
 .footer-title {
-  margin-bottom: 20px;
-
   color: var(--bgc);
   text-decoration: none;
   font-family: Raleway;
@@ -553,6 +553,9 @@ img {
   letter-spacing: 0.03em;
 }
 
+.footer-links {
+  margin-left: 70px;
+}
 .footer-nav {
   margin-top: 20px;
   margin-right: 70px;
@@ -578,7 +581,6 @@ img {
 
 .footer-adress {
   margin-top: 20px;
-  margin-right: 70px;
 }
 .adress-item {
   margin-bottom: 9px;
