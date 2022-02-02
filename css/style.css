@@ -446,7 +446,7 @@ img {
 }
 .button-index:hover,
 .button-index:focus {
-  color: var(--title-text-color);
+  background-color: #188ce8;
 }
 
 .button {
