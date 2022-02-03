@@ -602,11 +602,12 @@ img {
 
 .footer-social-links {
   display: flex;
+  list-style: none;
 }
 .footer-list-social {
   margin-right: 10px;
+  text-align: center;
   justify-content: center;
-  align-items: center;
 
   width: 44px;
   height: 44px;
@@ -630,6 +631,7 @@ img {
 
 .footer-icons-social {
   margin-top: 11px;
+  justify-content: center;
 
   width: 20px;
   height: 20px;
