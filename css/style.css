@@ -14,7 +14,14 @@ body {
   color: #212121;
   font-family: "Roboto", sans-serif;
 }
-ul {
+
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
   list-style: none;
 
   margin: 0px;
@@ -147,12 +154,6 @@ ul {
 
 .icon-phone:hover {
   fill: var(--bgc);
-}
-h1,
-h2,
-h3,
-p {
-  margin: 0%;
 }
 
 .hero {
@@ -494,10 +495,6 @@ img {
   letter-spacing: 0.03em;
   border: 0px;
 }
-.button-primary:hover,
-.button-primary:focus {
-  color: var(--title-text-color);
-}
 
 /* Card set */
 
@@ -572,16 +569,10 @@ img {
   color: #2196f3;
 }
 
-.footer-title {
-  margin-bottom: 20px;
-}
 .footer-logo {
   color: var(--body-bgc-index);
 }
 
-.footer-adress {
-  margin-top: 20px;
-}
 .adress-item {
   margin-bottom: 9px;
 }
