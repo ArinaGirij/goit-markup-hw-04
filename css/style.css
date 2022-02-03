@@ -421,7 +421,8 @@ img {
   fill: currentColor;
 }
 
-.icon-links:hover .icon-links:focus {
+.icon-links:hover,
+.icon-links:focus {
   color: var(--bgc);
   border: 1px solid var(--bgc);
 }
