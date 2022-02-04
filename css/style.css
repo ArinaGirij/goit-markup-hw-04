@@ -544,6 +544,7 @@ img {
 }
 
 .footer-title {
+  margin-bottom: 20px;
   color: var(--bgc);
   text-decoration: none;
   font-family: Raleway;
